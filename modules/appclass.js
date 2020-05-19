@@ -10,12 +10,12 @@ class Person{
     decreaseHealth(){
         this.health--;
     }
-    getName(){
-        return (`${this.name} is a dick`);
-    }
-    getSongs(){
-        return this.favSongs;
-    }
+    // getName(){
+    //     return (`${this.name} is a dick`);
+    // }
+    // getSongs(){
+    //     return this.favSongs;
+    // }
 };
 
 const ann = new Person("Ann",100,["nothing happened","song2"]);
