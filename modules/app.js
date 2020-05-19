@@ -9,4 +9,8 @@ const add = (num1, num2) => {
         someNames
     }
 
-  
+let coder=true;
+
+module.exports={
+    coder
+}
